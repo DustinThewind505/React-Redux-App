@@ -1,5 +1,5 @@
 body {
-    background: grey;
+    background: darkblue;
 }
 
 .App {
@@ -8,18 +8,34 @@ text-align: center;
 
 h1 {
 color: white;
+letter-spacing: 1rem;
+}
+
+p {
+    color: white;
+    font-size: 1.2rem;
 }
 
 .button {
+background-color: red;
 margin-bottom: 20px;
+border-radius: 30px;
+}
+
+.button:hover {
+    background-color: black;
+    color: lawngreen;
 }
 
 .dogImg {
 width: auto;
 height: 80vh;
+border: 2px solid black;
 }
 
 .video {
 margin-right: auto;
 margin-left: auto;
+background-color: black;
+border: 1px solid black;
 }
